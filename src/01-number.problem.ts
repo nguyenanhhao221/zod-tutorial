@@ -10,7 +10,6 @@ export const toString = (num: unknown) => {
   const parsed = numberParser.parse(num);
   return String(parsed);
 };
-
 // TESTS
 
 it('Should throw a runtime error when called with not a number', () => {
